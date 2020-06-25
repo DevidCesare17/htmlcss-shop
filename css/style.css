@@ -33,8 +33,13 @@ div.prodotto{
 }
 
 .cuore{
-  /*display: none;*/
+  display: none;
   position: absolute;
   left: 50%;
   bottom: 5%;
+}
+
+.prodotto:hover .cuore{
+  display: block;
+  color: #E42217;
 }
