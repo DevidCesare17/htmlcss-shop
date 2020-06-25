@@ -1,0 +1,42 @@
+.container, .container-2{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: inline-block;
+  position: relative;
+  background-color: #6D7B8D;
+}
+
+.container-2{
+  display:block;
+  position: relative;
+  background-color: #6D7B8D;
+}
+
+div{
+  display: inline-block;
+}
+
+.sconto{
+  position: absolute;
+  right: 0;
+  background-color: #4AA02C;
+  padding: 2px;
+}
+
+.sconto:nth-child(2){
+  position: absolute;
+  right: 0;
+  background-color: #E42217;
+  padding: 2px;
+}
+
+.cuore{
+  /*display: none;*/
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
