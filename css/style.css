@@ -36,7 +36,8 @@ div.prodotto{
   display: none;
   position: absolute;
   left: 50%;
-  bottom: 5%;
+  bottom: 3%;
+  font-size: 180%;
 }
 
 .prodotto:hover .cuore{
